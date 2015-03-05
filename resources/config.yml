@@ -1,0 +1,13 @@
+backend: sqlite # Values can be "sqlite" and "mysql"
+main:
+  double-coins: false # You can set here double coins option, to get double money from addCoins() method
+  double-coins-days: [6,7]
+rate: # You can set here rate for money exchange. If number will be > 0, plugin will use it. If numbers will be 0, plugin will generate the rate randomly from 30 to 50
+  buy: 0
+  sell: 0
+mysql: # MySQL database location
+  host: 127.0.0.1
+  port: 3306
+  database: db1
+  user: db1
+  pass: 12345

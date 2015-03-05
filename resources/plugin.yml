@@ -1,0 +1,10 @@
+name: LegendCoins
+main: me.belka.legendcoins.EconomyMain
+version: 1.6
+author: xBeLkAx
+
+commands:
+  coins:
+    description: "Main plugin command!"
+  change:
+    description: "Command for changing vault!"
